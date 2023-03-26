@@ -42,7 +42,7 @@ class HomeScreen extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
-                        return LoginScreen();
+                        return RegisterScreen();
                       }));
                     },
                   ),
